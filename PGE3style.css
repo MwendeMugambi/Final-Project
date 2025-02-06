@@ -1,0 +1,169 @@
+
+.DressStyle{
+    width: 1239px;
+    height: 730px;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(192, 192, 184);
+}
+.Header{
+    font-weight: bold;
+    text-align: center;
+    
+}
+.Images{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20%;
+    gap: 20px;
+}
+.Images1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    margin-left: 20px;
+}
+.Images2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+    text-align: center;
+    margin-left: 20px;
+}
+.Img1{
+    width: 407px;
+    height: 290px;
+    top: 192px;
+    left: 64px;
+    object-fit: cover;
+    border-radius: 10%;
+    
+}
+.Img2{
+   height: 290px; 
+   width: 684px;
+   top: 192px;
+   left: 491px;
+   object-fit: cover;
+   border-radius: 5%;
+}
+.Img3{
+    height: 290px;
+    width: 684px;
+    top: 501px;
+    left: 64px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+.Img4{
+    height: 290px;
+    width: 407px;
+    top: 501px;
+    left: 768px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.Customers{
+    display: flex;
+    flex-direction: row;
+}
+.Header1{
+    width: 654px;
+    height: 58px;
+    top: 946px;
+    margin-left: 100px;
+    font-weight: 700;
+    font-weight: bold;
+}
+.Main-Reviews{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    gap: 100px;
+}
+.Reviews{
+    width: 400px;
+    height: 300px;
+    border-radius: 2px;
+    background-color: transparent;
+    border-color: rgb(192, 192, 184);
+}
+.Sarah{
+    width: 336px;
+    height: 161px;
+}
+.Alex{
+    width: 336px;
+    height: 161px;
+}
+.James{
+    width: 336px;
+    height: 161px;
+}
+.P1{
+    margin: 0em;
+}
+.Final-Container{
+    width: 1441px;
+    height: 589px;
+    margin-left: -1px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.First{
+    width: 1240px;
+    height: 180px;
+    margin-left: 100px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    width: 551px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: white;
+}
+.Buttons{
+    width: 349px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.Text2{
+    position: relative;
+    top: 0px;
+    left: 80px;
+    font-size: 20px;
+}
+.Text1{
+    position: relative;
+    top: 0px;
+    right: 650px;
+    font-size: 20px;
+}
+.Text3{
+    position: relative;
+    top: 0px;
+    right: 400px;
+    font-size: 20px;
+}
+.btn{
+    margin-top: 20px;
+    border-style: none;
+    background-color: transparent;
+}
+.mark{
+    width: 20px;
+    height: 20px;
+    position: inline;
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Inspired Profile</title>
+</head>
+<style>
+    .body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(18, 19, 19);
+    color: white;
+}
+.Sidebar {
+    width: 220px;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(28, 29, 27);
+    position: fixed; /* Fix the sidebar on the left */
+    left: 0;
+    top: 0;
+    
+}
+.Sidebar nav {
+    display: flex;
+    flex-direction: row;
+}
+.Header {
+    background-color: rgb(3, 88, 30);
+    padding: 20px;
+    background-size: contain;
+    background-position: right;
+    text-align: center;
+    border-radius: 8px;
+    width: 220px;
+    -ms-flex-item-align: right;
+    margin-left: 260px;
+}
+.Profile-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+.Top {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: 260px;
+}
+.Recently{
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: 260px;
+}
+.Recent-playlists {
+    display: flex;
+    align-items: end;
+    margin: 10px 0;
+}
+.Playlists-item {
+    display: flex;
+    align-items: end;
+    margin: 10px 0; 
+}
+.Recent-image {
+    width: 220px;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.Playlist-image {
+    width: 220px;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 10px; 
+}
+.Playlists-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.recently-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: rows;
+}
+.Control-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+.Bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(28, 29, 27);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+}
+.P1 {
+    margin: 0em;
+    font-weight: bold;
+}
+.btn {
+    background-color: rgb(6, 143, 54);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: hand;
+    margin-right: 10px;
+}
+.btn1{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: hand;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: rgb(3, 88, 30);
+}
+
+.search {
+    margin-top: 20px;
+}
+
+.search input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+.main-content {
+    margin-left: 220px; 
+    padding: 20px; 
+    background-color: rgb(3, 88, 30)
+}
+</style>
+<body>
+    <div class="Sidebar">
+        <nav>
+            <div class="Search">
+                <input type="text" placeholder="Search...">
+                <br>
+            <button class="btn1">Home</button>
+            <br>
+            <button class="btn1">Profile</button>
+            <br>
+            <button class="btn1">Your Library</button>
+            <br>
+            <button class="btn1">Create Playlist</button>
+            <br>
+            <button class="btn1">Settings</button>
+             </div>
+        </nav>
+    </div>
+    <div class="Main content">
+        <header class="Header">
+            <img src="C:\Users\Lexer\Desktop\Mwende.html\Images\Profile Image.jpg" alt="Profile Picture" class="Profile-image">
+            <h1>Mwende Mugambi</h1>
+        <p class="P1">12 Public Playlists</p>
+        <p class="P1">1500 Followers</p>
+        <p class="P1">217 Following</p>
+         </header>
+        <br>
+        <button>Follow</button>
+        <button>Share</button>
+    </div>
+    <section class="Top">
+        <h2>Top Playlists</h2>
+        <div class="playlists-container">
+        <div class="Playlists-item">
+        <img src="C:\Users\Lexer\Desktop\Mwende.html\Images\Chill vibes Image.jpg" alt="Playlist" class="Playlist-image">
+        <p>Chill vibes</p>
+    </div>
+    <div class="Playlists-item">
+        <img src="C:\Users\Lexer\Desktop\Mwende.html\Images\Work Out Image.jpg" alt="Playlist" class="Playlist-image">
+        <p>Work Out Mix</p>
+    </div>
+    <div class="Playlists-item">
+        <img src="C:\Users\Lexer\Desktop\Mwende.html\Images\Patriot Mix.jpg" alt="Playlist" class="Playlist-image">
+        <p>Patriot Mix</p>
+    </div>
+    <section class="Recently"></section>
+    <h2>Recently Played</h2>
+    <div class="recently-container">
+    <div class="Recent-playlists">
+        <img src="C:\Users\Lexer\Desktop\Mwende.html\Images\Daily Vibes Image.jpg" alt="Recent" class="Recent-image">
+        <p>Daily Vibes</p>
+    </div>
+    <div class="Recent-playlists">
+        <img src="C:\Users\Lexer\Desktop\Mwende.html\Images\Worship Image.jpg" alt="Recent" class="Recent-image">
+        <p>Worship Mix</p>
+    </div>
+    <div class="Recent-playlists">
+        <img src="C:\Users\Lexer\Desktop\Mwende.html\Images\Patriot Mix.jpg" alt="Recent" class="Recent-image">
+        <p>Patriot Mix</p>
+    </div>
+    <section>
+        <div class="Control-container">
+            <button class="btn">Play</button>
+            <br>
+            <button class="btn">Pause</button>
+        </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,98 @@
+.body {
+    display: flex;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(18, 19, 19);
+    color: white;
+}
+.Sidebar {
+    width: 220px;
+    position: fixed;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(28, 29, 27);
+}
+.Sidebar nav {
+    display: flex;
+    flex-direction: column;
+}
+.Header {
+    background-color: rgb(18, 19, 19);
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 8px;
+}
+.Profile-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+.Top, .Recently {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.Recent-playlists, .Playlists-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.Recent-image, .Playlist-image {
+    width: 60px;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.Playlists-container, .recently-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Control {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.Bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(28, 29, 27);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+}
+.P1 {
+    margin: 0em;
+}
+.button {
+    background-color: rgb(6, 143, 54);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: rgb(3, 88, 30);
+}
+
+.search {
+    margin-top: 20px;
+}
+
+.search input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Management</title>
+    <link rel="stylesheet" href="Classstyle.css">
+</head>
+<body>
+    <h2>Student Grade Management</h2>
+    <div>
+    <input type="text" placeholder="Student Name">
+    <input type="number" placeholder="Math Score (0-100)">
+    <input type="number" placeholder="Science Score (0-100)">
+    </div>
+    <div>
+    <input type="number" placeholder="English Score (0-100)">
+    <button>Add Student</button>
+    <button>Calculate Class Stats</button>
+    </div>
+
+    <table id="StudentTable">
+        <thead>
+        <tr>
+         <th>Name</th>
+         <th>Math</th>
+         <th>Science</th>
+         <th>English</th>
+         <th>Total</th>
+         <th>Average</th>
+         <th>Grade</th>
+         <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mwende</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>150</td>
+            <td>50</td>
+            <td>E</td>
+            <td><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td>Mugambi</td>
+            <td>70</td>
+            <td>70</td>
+            <td>70</td>
+            <td>210</td>
+            <td>70</td>
+            <td>C</td>
+            <td><button>Delete</button></td>  
+        </tr>
+    </tbody>
+    </table>
+
+    <div>
+        <h2>Class Statistics</h2>
+        <p>Total Students: 1</p>
+        <p>Average Class Score: 67</p>
+        <p>Top Performers: None</p>
+        <p>Low Performers: None</p>
+    </div>
+   <script src="Class.js"></script> 
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Profile card</title>
+    <link rel="stylesheet" href="Index1style.css">
+</head>
+<body>
+    <h2>Create Your Profile</h2>
+    <input type="text" placeholder="Enter your name" id="username">
+    <input type="text" placeholder="Enter your Age" id="age">
+    <input type="text" placeholder="Favorite Color" id="color">
+    <input type="text" placeholder="Enter Hobbies (Separate with comma)" id="hobbies">
+    <button id="CreateProfile">Create Profile</button>
+
+    <h2>Your Profile</h2>
+
+<!--Profile card-->
+    <div class="Profile" id="profile">
+        <p class="name" id="profileName"></p>
+        <p><span class="Age">Age:</span> <span id="profileAge">16</span></p>
+        <p id="info">You are under 18</p>
+        <p><span class="Hobbies">Hobbies</span> <span id="profileHobbies">Traveling, Reading, Flying</span></p>
+    </div>
+
+    <script src="Index1.js"></script>
+</body>
+</html>

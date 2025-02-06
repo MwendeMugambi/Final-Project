@@ -1,0 +1,17 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th{
+    border-style: solid;
+    border-color: rgb(171, 171, 171);
+    border-width: 1px;
+    padding: 8px;
+}
+td{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(171, 171, 171);
+    padding: 8px;
+}

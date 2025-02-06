@@ -1,0 +1,40 @@
+.Main-Container{
+    width: 1440px;
+}
+.Sign-Up{
+    width: 1440px;
+    height: 38px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+.Link{
+    color: white;
+}
+.Shop{
+    display: flex;
+    width: 1240px;
+    position: fixed;
+    height: 48px;
+    top: 62px;
+    left: 100px;
+    gap: 40px;
+    flex-direction: row;    }
+.Next{
+    display: flex;
+    flex-direction: row;
+    width: 259px;
+    height: 22px;
+    margin-top: 20px;
+    margin-left: 100px;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.Line{
+    width: 1240px;
+    margin-top: 80px;
+    height: 0;
+    left: 100px;
+    align-self: center;
+}
